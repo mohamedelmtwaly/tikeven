@@ -1,0 +1,800 @@
+{
+  "tickets": {
+    "checked_in": "Checked In"
+  },
+  "common": {
+    "category": "Category",
+    "cancel": "Cancel",
+    "optional": "optional"
+  },
+  "organizer_analytics": {
+    "attendance_by_category": "Attendance by Category",
+    "no_attendance_data": "No attendance data available"
+  },
+  "welcome": "Welcome",
+  "logout": "Logout",
+  "profile": "My Profile",
+  "orders": "Order & Ticket History",
+  "dashboard_breadcrumb": "Dashboard",
+  "venues_breadcrumb": "Venues",
+  "venues_title": "All Venues",
+  "venues_subtitle": "Manage all your venues from this central hub.",
+  "venues_add_new": "Add New Venue",
+  "venues_search_placeholder": "Search venues...",
+  "venues_table_title": "Venue Title",
+  "venues_table_address": "Address",
+  "venues_table_city": "City",
+  "venues_table_country": "Country",
+  "venues_table_actions": "Actions",
+  "venues_empty": "No venues found.",
+  "venues_pagination_showing": "Showing",
+  "venues_pagination_to": "to",
+  "venues_pagination_of": "of",
+  "venues_pagination_results": "results",
+  "venues_modal_title": "Venue Details",
+  "venues_modal_subtitle": "Complete venue information",
+  "venues_modal_address": "Address",
+  "venues_modal_city": "City",
+  "venues_modal_country": "Country",
+  "venues_modal_close": "Close",
+  "venues_delete_confirm_title": "Are you sure?",
+  "venues_delete_confirm_text": "This venue will be deleted permanently.",
+  "venues_delete_confirm_confirm": "Delete",
+  "venues_delete_confirm_cancel": "Cancel",
+  "venues_delete_success_title": "Deleted!",
+  "venues_delete_success_text": "Venue has been deleted successfully.",
+  "venues_delete_error_title": "Error",
+  "venues_delete_error_text": "Failed to delete venue",
+  "venues_new_breadcrumb_add": "Add New Venue",
+  "venues_new_title": "Add a New Venue",
+  "venues_new_subtitle": "Fill in the details below to add a new venue to the platform.",
+  "venues_new_section_info": "Venue Information",
+  "venues_new_section_photos": "Venue Photos",
+  "venues_new_field_title": "Venue Title",
+  "venues_new_field_address": "Full Address",
+  "venues_new_field_description": "Detailed Description",
+  "venues_new_field_country": "Country",
+  "venues_new_field_city": "City",
+  "venues_new_field_capacity": "Capacity",
+  "venues_new_placeholder_title": "e.g., The Grand Concert Hall",
+  "venues_new_placeholder_address": "e.g., 123 Music Lane, Harmony City",
+  "venues_new_placeholder_description": "Provide a detailed description...",
+  "venues_new_placeholder_country": "Choose a country...",
+  "venues_new_placeholder_city": "Choose a city...",
+  "venues_new_placeholder_choose_country_first": "Choose country first",
+  "venues_new_placeholder_capacity": "e.g., 100",
+  "venues_new_filepond_label": "Drag & Drop venue images or <span class=\"filepond--label-action\">Browse</span>",
+  "venues_new_button_saving": "Saving...",
+  "venues_new_button_save": "Save Venue",
+  "venues_new_button_cancel": "Cancel",
+  "venues_new_error_no_image": "Please upload at least one image",
+  "venues_new_error_only_images": "Only image files are allowed",
+  "venues_new_success_title": "Venue Added Successfully",
+  "venues_new_error_title": "Error",
+  "venues_new_error_text": "Failed to add venue",
+  "venues_new_validation_title": "Please enter a venue title",
+  "venues_new_validation_address": "Please enter the full address",
+  "venues_new_validation_description": "Please enter a detailed description",
+  "venues_new_validation_country": "Please choose a country",
+  "venues_new_validation_city": "Please choose a city",
+  "venues_new_validation_capacity": "Please enter a valid capacity",
+  "venues_edit_title": "Edit Venue",
+  "venues_edit_subtitle": "Update the details below to modify your venue information.",
+  "venues_edit_not_found": "Venue not found.",
+  "error_prefix": "Error:",
+  "Dashboard": "Dashboard",
+  "Calendar": "Calendar",
+  "Attendance": "Attendance",
+  "Events": "Events",
+  "Venues": "Venues",
+  "Analytics": "Analytics",
+  "Settings": "Settings",
+  "checkout_page": {
+    "title": "Checkout & Billing"
+  },
+  "home": {
+    "common": {
+      "prev_button": "Previous",
+      "next_button": "Next"
+    },
+    "categories": {
+      "title": "Browse By Category",
+      "subtitle_line1": "Find events that match your interests.",
+      "subtitle_line2": "Discover concerts, exhibitions, workshops, and more all tailored to your passions",
+      "events_label": "Events {{count}}"
+    },
+    "hero": {
+      "loading": "Loading events...",
+      "no_events_yet": "No events yet",
+      "no_events_available": "No events available",
+      "no_description": "No description available",
+      "get_tickets": "Get Tickets",
+      "learn_more": "Learn More"
+    },
+    "venues": {
+      "title": "Explore Venues",
+      "subtitle_line1": "Discover the best venues for your upcoming events.",
+      "subtitle_line2": "Concert halls, theaters, clubs and more!",
+      "loading": "Loading venues...",
+      "empty": "No venues found.",
+      "show_all": "Show All"
+    },
+    "featured": {
+      "title": "Featured Events",
+      "show_all": "Show All"
+    },
+    "whytik": {
+      "title": "Why TikEven?",
+      "lead": "We believe that great events bring people together and create memories that last a lifetime. Our mission is to make discovering and attending events effortless and exciting.",
+      "items": {
+        "seamless": {
+          "title": "Seamless",
+          "desc": "Enjoy a smooth, hassle-free ticketing experience from start to finish with our intuitive tools."
+        },
+        "diverse": {
+          "title": "Diverse Events",
+          "desc": "Find events for every passion — from concerts to creative workshops, all in one place."
+        }
+      },
+      "cta": "Discover More"
+    },
+    "organizers": {
+      "title": "Popular Organizers",
+      "subtitle": "Meet the top organizers who consistently create outstanding and memorable events.",
+      "loading": "Loading organizers...",
+      "empty": "No organizers found."
+    },
+    "create": {
+      "title": "Create Your Event",
+      "subtitle": "Have an event idea? Bring it to life on BookTik. It's simple, fast, and opens your doors to a massive audience.",
+      "cta": "Start Selling Tickets",
+      "ticket": {
+        "admit_one": "Admit One",
+        "organizer": "Event Organizer",
+        "row": "ROW",
+        "seat": "SEAT"
+      }
+    }
+  },
+  "about_page": {
+    "hero_alt": "About hero",
+    "title": "ABOUT US",
+    "intro_heading": "Tikeven",
+    "intro_body_part1": "Tikeven was created with a simple mission: help people create events that inspire, connect, and bring joy. Our platform blends elegant design with powerful event tools—making it easier than ever for organizers to launch unforgettable experiences.",
+    "intro_body_part2": "Today, thousands of users trust Tikeven to manage events with ease while giving attendees a delightful, seamless journey.",
+    "brand_image_alt": "Brand image",
+    "history_image_alt": "History image",
+    "history_heading": "OUR STORY",
+    "history_body": "Founded in 2024, Tikeven started as a simple tool designed to make event registration efficient. Over time, we grew into a complete event ecosystem—covering ticketing, analytics, finances, and attendee engagement.",
+    "promise_heading": "OUR PROMISE",
+    "promise_body": "We promise to keep building tools that simplify your workflow, strengthen your reach, and elevate your events.",
+    "promise_image_alt": "Promise image",
+    "cta_heading": "Ready to create your next event?",
+    "cta_subheading": "Join thousands of organizers using Tikeven to power amazing experiences.",
+    "cta_button": "Get Started"
+  },
+  "checkout_component": {
+    "order_summary_title": "Order Summary",
+    "event_image_alt": "Event",
+    "subtotal_label": "Subtotal",
+    "total_label": "Total",
+    "email_notice_title": "Tickets will be emailed to you",
+    "email_notice_prefix": "After successful payment, your tickets and QR codes will be delivered",
+    "email_notice_to_label": "to",
+    "email_notice_to_generic": "to your email.",
+    "billing_payment_title": "Billing & Payment",
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "john@example.com"
+      },
+      "card_holder": {
+        "label": "Card Holder",
+        "placeholder": "John Doe"
+      },
+      "card_number": {
+        "label": "Card Number",
+        "required": "Card number is required.",
+        "card_type_label": "Card type:"
+      },
+      "expiry": {
+        "label": "Expiry",
+        "required": "Expiry date is required."
+      },
+      "cvc": {
+        "label": "CVC",
+        "required": "CVC is required."
+      },
+      "postal_code": {
+        "label": "Postal Code",
+        "placeholder": "12345"
+      }
+    },
+    "button_processing": "Processing...",
+    "button_confirm_purchase": "Confirm Purchase",
+    "incomplete_card_title": "Incomplete card details",
+    "incomplete_card_text": "Please complete card number, expiry, and CVC.",
+    "payment_failed_title": "Payment Failed",
+    "payment_success_title": "Payment successful",
+    "generic_error_title": "Something went wrong",
+    "validation": {
+      "email_invalid": "Invalid email address",
+      "card_holder_required": "Card holder name is required",
+      "postal_code_required": "Postal code is required"
+    }
+  },
+  "organizer_calendar": {
+    "title": "Events Calendar",
+    "subtitle": "View and manage your events in calendar view",
+    "add_event": "Add Event",
+    "today": "Today",
+    "categories": "Categories",
+    "select_a_date": "Select a date",
+    "no_events_scheduled": "No events scheduled",
+    "this_day_available": "This day is available",
+    "pick_a_date": "Pick a date",
+    "click_day_to_see": "Click on any day to see events",
+    "event": "event",
+    "events": "events",
+    "event_fallback": "Event",
+    "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "months": [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ],
+    "modal": {
+      "title": "Event Details",
+      "read_only": "Read-only view",
+      "start": "Start",
+      "end": "End",
+      "price": "Price"
+    },
+    "actions": {
+      "close": "Close"
+    },
+    "stats": {
+      "total_events": "Total Events",
+      "this_month": "This Month",
+      "upcoming_this_month": "Upcoming This Month"
+    }
+  },
+  "event_order_page": {
+    "toast_order_created": "Order created successfully",
+    "banner_alt": "Event banner image",
+    "date_time_label": "Date & Time",
+    "venue_label": "Venue",
+    "select_tickets_title": "Select Your Tickets",
+    "general_admission_label": "General Admission",
+    "quantity_label": "Quantity",
+    "total_label": "Total:",
+    "processing": "Processing...",
+    "proceed_to_checkout": "Proceed to Checkout"
+  },
+  "orders_page": {
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "empty_title": "No orders yet",
+    "empty_description": "When you purchase tickets, your order history and QR codes will appear here.",
+    "untitled_event": "Untitled Event",
+    "status_upcoming": "Upcoming",
+    "status_completed": "Completed",
+    "ordered_on_label": "Ordered on",
+    "event_date_label": "Event Date",
+    "no_date": "No date set",
+    "total_label": "Total",
+    "ticket_singular": "Ticket",
+    "ticket_plural": "Tickets",
+    "ticket_label": "Ticket #{{index}}",
+    "event_fallback": "Event",
+    "attendee_label": "Attendee:",
+    "qr_alt": "QR code for {{id}}"
+  },
+  "organizer_analytics": {
+    "title": "Organizer Analytics",
+    "subtitle": "Welcome back! Here's an overview of your events.",
+    "attendance_rate": "Attendance Rate",
+    "attendance_by_category": "Attendance by Category",
+    "no_attendance_data": "No attendance data available yet",
+    "check_ins": "check-ins",
+    "of_tickets_checked_in": "of tickets checked in",
+    "view_all_events": "View All Events",
+    "total_platform_revenue": "Total Platform Revenue",
+    "vs_last_month": "vs. last month",
+    "total_tickets_sold": "Total Tickets Sold",
+    "total_events": "Total Events",
+    "top_selling_events": "Top Selling Events",
+    "upcoming_events": "Upcoming Events",
+    "tickets_sold_label": "Tickets Sold:",
+    "no_sales_yet": "No sales yet.",
+    "no_upcoming_events": "No upcoming events in the next 30 days.",
+    "revenue_by_category": "Revenue by Category",
+    "available_categories": "Available categories:",
+    "no_data_available": "No data available."
+  },
+  "organizer_attendance": {
+    "title": "Attendance",
+    "subtitle": "Streamlined attendee check-in management",
+    "select_event": "Select Event",
+    "all_events": "All events",
+    "filter_all": "All",
+    "filter_pending": "Pending",
+    "filter_checked_in": "Checked-in",
+    "search_placeholder": "Search by Ticket Number...",
+    "search_button": "Find",
+    "attendee_fallback": "Attendee",
+    "status_checked_in": "Checked-in",
+    "status_pending": "Pending",
+    "qr_alt": "Ticket QR",
+    "qr_title": "Scan to validate ticket",
+    "toast_checked_in_success": "Checked in successfully",
+    "action_checked_in": "Checked-in",
+    "action_checking": "Checking...",
+    "action_check_in": "Check-in",
+    "no_tickets_search": "No tickets match your search",
+    "no_tickets_event": "No tickets found for this event",
+    "no_tickets_search_hint": "Try adjusting your ticket number query.",
+    "no_tickets_event_hint": "Tickets will appear here once they're issued for the selected event.",
+    "live_event_stats": "Live Event Stats",
+    "stats_checked_in": "Checked In",
+    "stats_remaining": "Remaining",
+    "total_check_ins": "Total Check-ins",
+    "activity_title": "Real-time Activity Stream",
+    "activity_aria_label": "Real-time Activity Stream",
+    "activity_ticket_label": "Ticket",
+    "activity_checked_in": "checked-in",
+    "activity_issued": "issued"
+  },
+  "organizer_settings": {
+    "title": "Organizer Settings",
+    "subtitle": "Manage your profile, notifications, and account settings.",
+    "sections": {
+      "profile": "Profile Settings",
+      "event_defaults": "Event Default Settings",
+      "notifications": "Notification Preferences",
+      "payment": "Payment Settings",
+      "social": "Social Media Links",
+      "account": "Account Management"
+    },
+    "profile_image": {
+      "label": "Profile Image",
+      "upload": "Upload New Image",
+      "remove": "Remove Image"
+    },
+    "fields": {
+      "full_name": {
+        "label": "Full Name",
+        "placeholder": "e.g., Alex Turner"
+      },
+      "organizer_name": {
+        "label": "Organizer Name",
+        "placeholder": "e.g., Arctic Monkeys Events"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "e.g., alex.t@example.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter a new password"
+      },
+      "description": {
+        "label": "Organizer Description",
+        "placeholder": "Provide a brief bio or description of your organization..."
+      },
+      "default_ticket_quantity": {
+        "label": "Default Ticket Quantity",
+        "placeholder": "e.g., 100"
+      },
+      "default_ticket_price": {
+        "label": "Default Ticket Price ($)",
+        "placeholder": "e.g., 25.00"
+      },
+      "default_visibility": {
+        "label": "Default Event Visibility",
+        "options": {
+          "public": "Public (Visible to everyone)",
+          "private": "Private (Visible only via direct link)",
+          "unlisted": "Unlisted (Not shown in search results)"
+        }
+      },
+      "stripe_account_id": {
+        "label": "Stripe account Id",
+        "placeholder": "e.g., acct_****************"
+      },
+      "facebook": {
+        "label": "Facebook URL",
+        "placeholder": "https://facebook.com/yourprofile"
+      },
+      "instagram": {
+        "label": "Instagram URL",
+        "placeholder": "https://instagram.com/yourprofile"
+      },
+      "twitter": {
+        "label": "Twitter URL",
+        "placeholder": "https://twitter.com/yourprofile"
+      },
+      "website": {
+        "label": "Website URL",
+        "placeholder": "https://yourwebsite.com"
+      }
+    },
+    "event_defaults": {
+      "description": "Set default values for new events to speed up your event creation process."
+    },
+    "notifications": {
+      "email": "Email Notifications",
+      "in_app": "In-App Alerts"
+    },
+    "payment": {
+      "description": "Configure how you receive revenue from your events. Connect your bank account or payment provider."
+    },
+    "social": {},
+    "account": {
+  },
+  "fields": {
+    "full_name": {
+      "label": "Full Name",
+      "placeholder": "e.g., Alex Turner"
+    },
+    "organizer_name": {
+      "label": "Organizer Name",
+      "placeholder": "e.g., Arctic Monkeys Events"
+    },
+    "email": {
+      "label": "Email Address",
+      "placeholder": "e.g., alex.t@example.com"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter a new password"
+    },
+    "description": {
+      "label": "Organizer Description",
+      "placeholder": "Provide a brief bio or description of your organization..."
+    },
+    "default_ticket_quantity": {
+      "label": "Default Ticket Quantity",
+      "placeholder": "e.g., 100"
+    },
+    "default_ticket_price": {
+      "label": "Default Ticket Price ($)",
+      "placeholder": "e.g., 25.00"
+    },
+    "default_visibility": {
+      "label": "Default Event Visibility",
+      "options": {
+        "public": "Public (Visible to everyone)",
+        "private": "Private (Visible only via direct link)",
+        "unlisted": "Unlisted (Not shown in search results)"
+      }
+    },
+    "stripe_account_id": {
+      "label": "Stripe account Id",
+      "placeholder": "e.g., acct_****************"
+    },
+    "facebook": {
+      "label": "Facebook URL",
+      "placeholder": "https://facebook.com/yourprofile"
+    },
+    "instagram": {
+      "label": "Instagram URL",
+      "placeholder": "https://instagram.com/yourprofile"
+    },
+    "twitter": {
+      "label": "Twitter URL",
+      "placeholder": "https://twitter.com/yourprofile"
+    },
+    "website": {
+      "label": "Website URL",
+      "placeholder": "https://yourwebsite.com"
+    }
+  },
+  "event_defaults": {
+    "description": "Set default values for new events to speed up your event creation process."
+  },
+  "notifications": {
+    "email": "Email Notifications",
+    "in_app": "In-App Alerts"
+  },
+  "payment": {
+    "description": "Configure how you receive revenue from your events. Connect your bank account or payment provider."
+  },
+  "social": {},
+  "account": {
+    "delete_title": "Delete Account",
+    "delete_description": "Permanently delete your account and all associated data. This action cannot be undone.",
+    "delete_button": "Delete My Account"
+  },
+  "actions": {
+    "saving": "Saving...",
+    "save_changes": "Save Changes"
+  }
+},
+"organizer_events": {
+  "loading": "Loading events...",
+  "loading_event_data": "Loading event data...",
+  "title": "All Events",
+  "subtitle": "Manage all your events from this central hub.",
+  "add_new": "Add New Event",
+  "search_placeholder": "Search events...",
+  "table_headers": {
+    "title": "Event Title",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "venue": "Venue",
+    "category": "Category",
+    "price": "Price",
+    "actions": "Actions"
+  },
+  "pagination_summary": "Showing {{start}} to {{end}} of {{total}} results",
+  "filters": {
+    "title": "Filters",
+    "status": "Status",
+    "date_range": "Date Range",
+    "all_time": "All Time",
+    "last_30_days": "Last 30 Days",
+    "next_30_days": "Next 30 Days",
+    "event_type": "Event Type",
+    "concerts": "Concerts",
+    "conferences": "Conferences",
+    "workshops": "Workshops",
+    "apply_filters": "Apply Filters"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close"
+  },
+  "modal": {
+    "title": "Event Details",
+    "subtitle": "Complete event information",
+    "start_label": "Start Date & Time",
+    "end_label": "End Date & Time",
+    "venue_label": "Venue",
+    "price_label": "Price",
+    "free_event": "Free Event"
+  },
+  "delete_confirm": {
+    "title": "Are you sure?",
+    "text": "This event will be deleted permanently.",
+    "confirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "delete_toast": {
+    "deleted_title": "Deleted!",
+    "deleted_text": "Event has been deleted successfully.",
+    "error_title": "Error!",
+    "error_text": "Failed to delete event. Please try again."
+  },
+  "breadcrumb_create": "Create Event",
+  "breadcrumb_edit": "Edit Event",
+  "create_title": "Create a New Event",
+  "create_subtitle": "Fill in the details below to add a new event to the platform.",
+  "edit_title": "Edit Event",
+  "edit_subtitle": "Update the details of your event.",
+  "form": {
+    "section_info": "Event Information",
+    "title_label": "Event Title",
+    "title_placeholder": "e.g., Summer Music Festival",
+    "ai_button_title": "Use AI to generate event details",
+    "ai_ask": "Ask AI",
+    "ai_thinking": "Thinking",
+    "description_label": "Detailed Description",
+    "description_placeholder": "Describe your event...",
+    "start_label": "Start Date & Time",
+    "start_placeholder": "Select start date and time",
+    "end_label": "End Date & Time",
+    "end_placeholder": "Select end date and time",
+    "venue_label": "Venue",
+    "venue_placeholder": "Select a venue...",
+    "category_label": "Category",
+    "category_placeholder": "Select a category...",
+    "price_label": "Ticket Price ($)",
+    "price_placeholder": "e.g., 45.00",
+    "tickets_label": "Number of Tickets",
+    "tickets_placeholder": "e.g., 100",
+    "free_label": "Free Event",
+    "photos_title": "Event Photos",
+    "current_photos": "Current Photos",
+    "filepond_label": "Drag & Drop event images or <span class=\"filepond--label-action\">Browse</span>",
+    "button_saving": "Saving...",
+    "button_updating": "Updating...",
+    "button_create": "Create Event",
+    "button_update": "Update Event",
+    "button_cancel": "Cancel",
+    "validation": {
+      "title_required": "Title is required",
+      "title_max": "Max {{max}} characters",
+      "description_required": "Description is required",
+      "description_max": "Max {{max}} characters",
+      "venue_required": "Venue is required",
+      "category_required": "Category is required",
+      "start_required": "Start date is required",
+      "end_required": "End date is required",
+      "end_after_start": "End date must be on or after start date",
+      "price_min": "Price must be greater than or equal to 0",
+      "tickets_min": "Tickets count must be at least 1"
+    }
+  },
+  "ai": {
+    "error_title": "Error",
+    "enter_title_first": "Please enter an event title first.",
+    "success_title": "AI suggestions applied!"
+  },
+  "submit": {
+    "success_title": "Success!",
+    "update_success": "Event updated successfully.",
+    "create_success": "Event created successfully.",
+    "error_title": "Error!",
+    "update_error_generic": "Failed to update event. Please try again.",
+    "create_error_generic": "Failed to create event. Please try again."
+  }
+},
+"blocked": {
+  "title": "Account blocked",
+  "create_event": "You cannot create an event because your account is currently blocked.",
+  "create_venue": "You cannot create a venue because your account is currently blocked.",
+  "listing_events": "Your account is blocked, so creating new events is disabled.",
+  "listing_venues": "Your account is blocked, so creating new venues is disabled."
+},
+"nav": {
+  "about": "About Us",
+  "events": "Events",
+  "venues": "Venues",
+  "attending": "Attending",
+  "organizer": "Organizer",
+  "tickets": "Tickets",
+  "login": "Log In",
+  "logout": "Log Out",
+  "signedInAs": "Signed in as",
+  "viewProfile": "View profile",
+  "notifications": "Notifications",
+  "noNotifications": "No notifications",
+  "upcomingEvents": "Upcoming events"
+},
+"footer": {
+    "description": "Discover and book tickets for the best events around you. Enjoy unforgettable experiences with ease and style.",
+    
+    "explore": {
+      "title": "Explore",
+      "categories": "Categories",
+      "featured": "Featured Events",
+      "venues": "Venues",
+      "organizers": "Organizers"
+    },
+
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "careers": "Careers",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+
+    "contact": {
+      "title": "Contact Us",
+      "address": "123 Event Lane, Fun City, 45678",
+      "email": "hello@tickeven.com",
+      "phone": "+1 (234) 567-890"
+    },
+
+    "rights": " All Rights Reserved. Built with love for event lovers."
+  },
+  "filters": {
+    "title": "Filters",
+    "status": "Status",
+    "date_range": "Date Range",
+    "all_time": "All Time",
+    "last_30_days": "Last 30 Days",
+    "next_30_days": "Next 30 Days",
+    "event_type": "Event Type",
+    "all": "All",
+    "all_categories": "All"
+  },
+  "admin_events": {
+    "title": "Events Management",
+    "subtitle": "View and manage all events",
+    "search_placeholder": "Search events...",
+    "show_all_events": "Show all events",
+    "loading":"Loading events...",
+    "show_reported_only": "Show reported events only",
+    "table_headers": {
+      "event": "Event",
+      "organizer": "Organizer",
+      "date": "Date",
+      "tickets": "Tickets",
+      "status": "Status",
+      "reports": "Reports",
+      "actions": "Actions",
+      "last_reported": "Last Reported",
+      "activity": "Activity"
+    },
+    "status": {
+      "upcoming": "Upcoming",
+      "active": "Active",
+      "completed": "Completed",
+      "banned": "Banned",
+      "published": "Published",
+      "under_review": "Under Review"
+    },
+    "view_reports": "View Reports",
+    "no_events": "No events found",
+    "error": "Error loading events",
+    "view_details": "View Details",
+    "tickets_sold": "{{sold}} sold",
+    "checked_in": "{{checkedIn}} checked in",
+    "reports_count": "{{count}} report{{s}}",
+    "reports_modal": {
+      "title": "User Reports for \"{{eventTitle}}\"",
+      "no_reports": "No reports have been submitted for this event yet.",
+      "reporter_anonymous": "Anonymous user",
+      "time_not_available": "Time not available"
+    },
+    "cannot_ban_title": "Cannot Ban Event",
+    "cannot_ban_message": "You can only ban events that start more than 2 days from now.",
+    "event_details": {
+      "title": "Event Details",
+      "organizer": "Organizer",
+      "date_time": "Date & Time",
+      "location": "Location",
+      "category": "Category",
+      "status": "Status",
+      "tickets": {
+        "title": "Tickets",
+        "sold": "Sold",
+        "checked_in": "Checked In",
+        "capacity": "Capacity"
+      },
+      "reports": {
+        "title": "Reports",
+        "no_reports": "No reports for this event",
+        "reported_by": "Reported by",
+        "on_date": "on",
+        "reason": "Reason",
+        "message": "Message",
+        "type": "Type"
+      },
+      "actions": {
+        "ban_event": "Ban Event",
+        "publish_event": "Publish Event",
+        "mark_reviewed": "Mark as Reviewed",
+        "back_to_events": "Back to Events"
+      },
+      "confirmation": {
+        "title": "Are you sure?",
+        "ban_message": "This will ban the event and make it invisible to users.",
+        "publish_message": "This will publish the event and make it visible to users.",
+        "confirm": "Yes, proceed",
+        "cancel": "Cancel"
+      },
+      "success": {
+        "status_updated": "Event status updated successfully"
+      },
+      "error": {
+        "update_failed": "Failed to update event status"
+      }
+    }
+  },
+  "reviews": {
+    "review": "Review",
+      "your_review": "Your Review",
+      "how_was_event":"How was the event?",
+      "share_experience": "Share Your Experience",
+      "help_others": "Help others by sharing your thoughts about this event",
+      "leave_review": "Leave a Review",
+      "select_rating":"select rating",
+      "comment":"comment",
+      "edit": "Edit",
+      "submit": "Submit Review",
+      "cancel": "Cancel",
+      "rating_required": "Please select a rating",
+      "success": "Thank you for your review!",
+      "error": "Failed to submit review. Please try again.",
+      "title": "Reviews",
+      "rating_label": "Your Rating",
+      "comment_label": "Your Review",
+      "comment_placeholder": "Tell us about your experience...",
+      "submit_review": "Submit Review"
+    }
+}

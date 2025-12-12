@@ -1,0 +1,118 @@
+/* Custom FilePond Styles - Using Project Color Palette */
+
+.filepond--root {
+  font-family: inherit;
+  margin-bottom: 0;
+}
+
+.filepond--drop-label {
+  min-height: 200px;
+  border-radius: 12px;
+  background-color: var(--color-background, #f8fafc);
+  border: 2px dashed var(--color-border, #e5e7eb);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.filepond--drop-label:hover {
+  background-color: var(--color-primary-50, #eef0fd);
+  border-color: var(--color-primary-600, #2a4db3);
+}
+
+.filepond--drop-label label {
+  cursor: pointer;
+  padding: 2rem;
+  color: var(--color-subtitle, #334155);
+}
+
+.filepond--panel-root {
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+.filepond--item-panel {
+  background-color: var(--color-surface, #ffffff);
+  border-radius: 8px;
+  border: 1px solid var(--color-border, #e5e7eb);
+}
+
+.filepond--image-preview-wrapper {
+  border-radius: 8px;
+  background-color: var(--color-surface, #ffffff);
+}
+
+.filepond--drip-blob {
+  background-color: var(--color-primary-600, #2a4db3);
+}
+
+.filepond--file-action-button {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.filepond--file-action-button:hover {
+  transform: scale(1.1);
+  background-color: #fee2e2;
+}
+
+.filepond--file-action-button svg {
+  color: #dc2626;
+}
+
+/* Loading indicator */
+.filepond--file-status-main {
+  color: var(--color-primary-700, #1e3a8a);
+  font-weight: 500;
+}
+
+.filepond--file-info {
+  color: var(--color-subtitle, #334155);
+  font-size: 0.875rem;
+}
+
+.filepond--label-action {
+  color: var(--color-primary-600, #2a4db3);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.filepond--label-action:hover {
+  text-decoration-color: var(--color-primary-600, #2a4db3);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .filepond--drop-label {
+    background-color: var(--color-primary-900, #0a1944);
+    border-color: var(--color-primary-800, #152c6c);
+  }
+
+  .filepond--drop-label:hover {
+    background-color: var(--color-primary-800, #152c6c);
+    border-color: var(--color-primary-600, #2a4db3);
+  }
+
+  .filepond--drop-label label {
+    color: var(--color-primary-100, #d4d9f9);
+  }
+
+  .filepond--item-panel {
+    background-color: var(--color-primary-800, #152c6c);
+    border-color: var(--color-primary-700, #1e3a8a);
+  }
+
+  .filepond--image-preview-wrapper {
+    background-color: var(--color-primary-900, #0a1944);
+  }
+
+  .filepond--file-info {
+    color: var(--color-primary-200, #acb7f5);
+  }
+
+  .filepond--file-status-main {
+    color: var(--color-primary-300, #8698f0);
+  }
+}

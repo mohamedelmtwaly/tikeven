@@ -1,0 +1,780 @@
+{
+  "welcome": "مرحبا",
+  "logout": "تسجيل الخروج",
+  "profile": "صفحتي",
+  "orders": "الطلبات والتذاكر",
+  "dashboard_breadcrumb": "لوحة التحكم",
+  "venues_breadcrumb": "القاعات",
+  "venues_title": "كل القاعات",
+  "venues_subtitle": "قم بإدارة جميع القاعات من مركز واحد.",
+  "venues_add_new": "إضافة قاعة جديدة",
+  "venues_search_placeholder": "ابحث عن القاعات...",
+  "venues_table_title": "عنوان القاعة",
+  "venues_table_address": "العنوان",
+  "venues_table_city": "المدينة",
+  "venues_table_country": "الدولة",
+  "venues_table_actions": "الإجراءات",
+  "venues_empty": "لا توجد قاعات.",
+  "venues_pagination_showing": "عرض",
+  "venues_pagination_to": "إلى",
+  "venues_pagination_of": "من",
+  "venues_pagination_results": "نتيجة",
+  "venues_modal_title": "تفاصيل القاعة",
+  "venues_modal_subtitle": "كل معلومات القاعة",
+  "venues_modal_address": "العنوان",
+  "venues_modal_city": "المدينة",
+  "venues_modal_country": "الدولة",
+  "venues_modal_close": "إغلاق",
+  "venues_delete_confirm_title": "هل أنت متأكد؟",
+  "venues_delete_confirm_text": "سيتم حذف هذه القاعة نهائيًا.",
+  "venues_delete_confirm_confirm": "حذف",
+  "venues_delete_confirm_cancel": "إلغاء",
+  "venues_delete_success_title": "تم الحذف!",
+  "venues_delete_success_text": "تم حذف القاعة بنجاح.",
+  "venues_delete_error_title": "خطأ",
+  "venues_delete_error_text": "فشل في حذف القاعة",
+  "venues_new_breadcrumb_add": "إضافة قاعة جديدة",
+  "venues_new_title": "إضافة قاعة جديدة",
+  "venues_new_subtitle": "قم بملء البيانات التالية لإضافة قاعة جديدة إلى المنصة.",
+  "venues_new_section_info": "معلومات القاعة",
+  "venues_new_section_photos": "صور القاعة",
+  "venues_new_field_title": "عنوان القاعة",
+  "venues_new_field_address": "العنوان الكامل",
+  "venues_new_field_description": "وصف تفصيلي",
+  "venues_new_field_country": "الدولة",
+  "venues_new_field_city": "المدينة",
+  "venues_new_field_capacity": "السعة",
+  "venues_new_placeholder_title": "مثال: المسرح الكبير",
+  "venues_new_placeholder_address": "مثال: ١٢٣ شارع الموسيقى، مدينة الهارموني",
+  "venues_new_placeholder_description": "اكتب وصفًا تفصيليًا للقاعة...",
+  "venues_new_placeholder_country": "اختر الدولة...",
+  "venues_new_placeholder_city": "اختر المدينة...",
+  "venues_new_placeholder_choose_country_first": "اختر الدولة أولاً",
+  "venues_new_placeholder_capacity": "مثال: ١٠٠",
+  "venues_new_filepond_label": "اسحب وأفلت صور القاعة هنا أو <span class=\"filepond--label-action\">تصفح</span>",
+  "venues_new_button_saving": "جارٍ الحفظ...",
+  "venues_new_button_save": "حفظ القاعة",
+  "venues_new_button_cancel": "إلغاء",
+  "venues_new_error_no_image": "من فضلك قم برفع صورة واحدة على الأقل",
+  "venues_new_error_only_images": "يسمح فقط برفع ملفات الصور",
+  "venues_new_success_title": "تم إضافة القاعة بنجاح",
+  "venues_new_error_title": "خطأ",
+  "venues_new_error_text": "فشل في إضافة القاعة",
+  "venues_new_validation_title": "من فضلك أدخل عنوان القاعة",
+  "venues_new_validation_address": "من فضلك أدخل العنوان الكامل",
+  "venues_new_validation_description": "من فضلك أدخل وصفًا تفصيليًا",
+  "venues_new_validation_country": "من فضلك اختر الدولة",
+  "venues_new_validation_city": "من فضلك اختر المدينة",
+  "venues_new_validation_capacity": "من فضلك أدخل سعة صحيحة",
+  "venues_edit_title": "تعديل القاعة",
+  "venues_edit_subtitle": "قم بتحديث البيانات التالية لتعديل معلومات القاعة.",
+  "venues_edit_not_found": "لم يتم العثور على القاعة.",
+  "error_prefix": "خطأ:",
+  "public_venues_loading": "جارٍ تحميل القاعات...",
+  "public_venues_title": "اكتشف قاعاتنا",
+  "public_venues_subtitle": "استكشف مجموعة متنوعة من القاعات في مدن مختلفة. استخدم عوامل التصفية للعثور على المكان المثالي لفعالك القادم.",
+  "public_venues_search_placeholder": "ابحث بالاسم أو المدينة...",
+  "public_venues_see_events": "عرض الفعاليات",
+  "capacity_label": "سعة",
+  "public_venues_empty": "لا توجد قاعات مطابقة لمرشحاتك.",
+  "filters_capacity_small": "صغيرة (<٣٬٠٠٠)",
+  "filters_capacity_medium": "متوسطة (٣٬٠٠٠–١٠٬٠٠٠)",
+  "filters_capacity_large": "كبيرة (>١٠٬٠٠٠)",
+  "filters": {
+    "title": "الفلاتر",
+    "status": "الحالة",
+    "date_range": "النطاق الزمني",
+    "all_time": "كل الفترات",
+    "last_30_days": "آخر 30 يومًا",
+    "next_30_days": "الـ 30 يومًا القادمة",
+    "event_type": "نوع الفعالية",
+    "concerts": "حفلات موسيقية",
+    "conferences": "مؤتمرات",
+    "workshops": "ورش عمل",
+    "apply_filters": "تطبيق الفلاتر"
+  },
+  "filters_city_placeholder": "المدينة",
+  "filters_capacity_placeholder": "السعة",
+  "venue_loading_details": "جارٍ تحميل تفاصيل القاعة...",
+  "venue_not_found": "لم يتم العثور على القاعة",
+  "back_to_venues": "← العودة إلى القاعات",
+  "breadcrumb_home": "الرئيسية",
+  "back": "رجوع",
+  "no_images_available": "لا توجد صور",
+  "people_label": "أشخاص",
+  "about_section_title": "نبذة",
+  "location": "الموقع",
+  "venue_upcoming_events": "الفعاليات القادمة في {{title}}",
+  "loading_events": "جارٍ تحميل الفعاليات...",
+  "no_image": "لا توجد صورة",
+  "free": "مجاني",
+  "view_details": "عرض التفاصيل",
+  "venue_no_upcoming_events": "لا توجد فعاليات قادمة في هذه القاعة حاليًا. يرجى التحقق لاحقًا!",
+  "profile_loading": "جارٍ تحميل ملفك الشخصي...",
+  "profile_edit_title": "تعديل الملف الشخصي",
+  "profile_edit_subtitle": "قم بإدارة معلوماتك الشخصية وإعدادات الحساب.",
+  "profile_alt": "الملف الشخصي",
+  "change_photo": "تغيير الصورة",
+  "personal_info_title": "المعلومات الشخصية",
+  "personal_info_subtitle": "حدّث صورتك وبياناتك الأساسية.",
+  "role_label": "الدور",
+  "city_label": "المدينة",
+  "country_label": "الدولة",
+  "age_label": "العمر",
+  "gender_label": "النوع",
+  "email_label": "البريد الإلكتروني",
+  "full_name_label": "الاسم الكامل",
+  "enter_field_placeholder": "أدخل {{field}}",
+  "gender_female": "أنثى",
+  "gender_male": "ذكر",
+  "gender_other": "أخرى",
+  "gender_prefer_not_say": "أفضل عدم الإفصاح",
+  "change_password_title": "تغيير كلمة المرور",
+  "change_password_subtitle": "لأمانك، لا تشارك كلمة المرور مع أي شخص.",
+  "current_password_label": "كلمة المرور الحالية",
+  "new_password_label": "كلمة المرور الجديدة",
+  "confirm_new_password_label": "تأكيد كلمة المرور الجديدة",
+  "enter_current_password": "أدخل كلمة المرور الحالية",
+  "enter_new_password": "أدخل كلمة المرور الجديدة",
+  "enter_confirm_new_password": "أدخل تأكيد كلمة المرور الجديدة",
+  "confirm_are_you_sure": "هل أنت متأكد؟",
+  "confirm_unsaved_lost": "سيتم فقدان أي تغييرات غير محفوظة.",
+  "confirm_yes_cancel": "نعم، إلغاء",
+  "cancel": "إلغاء",
+  "cancelled_title": "تم الإلغاء",
+  "cancelled_text": "تم تجاهل تغييراتك.",
+  "saving": "جارٍ الحفظ...",
+  "save_changes": "حفظ التغييرات",
+  "saving_title": "جارٍ الحفظ...",
+  "saving_text": "من فضلك انتظر حتى نقوم بتحديث ملفك الشخصي.",
+  "profile_updated_title": "تم تحديث الملف الشخصي!",
+  "verification_sent_text": "أرسلنا رابط تأكيد إلى {{email}}. يرجى التأكيد لإتمام تغيير البريد الإلكتروني.",
+  "profile_updated_success_text": "تم تحديث ملفك الشخصي بنجاح.",
+  "update_failed_title": "فشل التحديث",
+  "update_failed_text_generic": "حدث خطأ أثناء تحديث ملفك الشخصي.",
+  "Dashboard": "لوحة التحكم",
+  "Calendar": "التقويم",
+  "Attendance": "الحضور",
+  "Events": "الفعاليات",
+  "Venues": "الأماكن",
+  "Analytics": "التحليلات",
+  "Settings": "الإعدادات",
+  "checkout_page": {
+    "title": "الدفع"
+  },
+  "home": {
+    "common": {
+      "prev_button": "السابق",
+      "next_button": "التالي"
+    },
+    "categories": {
+      "title": "تصفَّح حسب الفئة",
+      "subtitle_line1": "اعثر على فعاليات تناسب اهتماماتك.",
+      "subtitle_line2": "اكتشف الحفلات والمعارض وورش العمل والمزيد — كلها مخصّصة لاهتماماتك",
+      "events_label": "فعاليات {{count}}"
+    },
+    "hero": {
+      "loading": "جارٍ تحميل الفعاليات...",
+      "no_events_yet": "لا توجد فعاليات بعد",
+      "no_events_available": "لا توجد فعاليات متاحة",
+      "no_description": "لا يوجد وصف متاح",
+      "get_tickets": "احجز التذاكر",
+      "learn_more": "اعرف المزيد"
+    },
+    "venues": {
+      "title": "استكشف القاعات",
+      "subtitle_line1": "اكتشف أفضل القاعات لفعالياتك القادمة.",
+      "subtitle_line2": "قاعات حفلات، مسارح، نوادٍ والمزيد!",
+      "loading": "جارٍ تحميل القاعات...",
+      "empty": "لا توجد قاعات.",
+      "show_all": "عرض الكل"
+    },
+    "featured": {
+      "title": "فعاليات مميزة",
+      "show_all": "عرض الكل"
+    },
+    "whytik": {
+      "title": "لماذا تيكيفن؟",
+      "lead": "نؤمن أن الفعاليات الرائعة تجمع الناس وتخلق ذكريات تدوم. مهمتنا أن نجعل اكتشاف الفعاليات وحضورها سهلاً وممتعًا.",
+      "items": {
+        "seamless": {
+          "title": "سلاسة",
+          "desc": "استمتع بتجربة تذاكر سلسة وخالية من التعقيد من البداية للنهاية عبر أدواتنا الذكية."
+        },
+        "diverse": {
+          "title": "فعاليات متنوعة",
+          "desc": "اعثر على فعاليات لكل شغف — من الحفلات إلى ورش العمل الإبداعية، كلها في مكان واحد."
+        }
+      },
+      "cta": "اكتشف المزيد"
+    },
+    "organizers": {
+      "title": "منظّمون مشهورون",
+      "subtitle": "تعرّف على أبرز المنظّمين الذين يقدّمون فعاليات متميّزة ولا تُنسى باستمرار.",
+      "loading": "جارٍ تحميل المنظّمين...",
+      "empty": "لا يوجد منظّمون."
+    },
+    "create": {
+      "title": "أنشئ فعاليتك",
+      "subtitle": "عندك فكرة لفعالية؟ نفّذها على BookTik بسهولة وسرعة، وابدأ بالوصول إلى جمهور واسع.",
+      "cta": "ابدأ بيع التذاكر",
+      "ticket": {
+        "admit_one": "تذكرة دخول",
+        "organizer": "منظّم الفعالية",
+        "row": "صف",
+        "seat": "مقعد"
+      }
+    }
+  },
+  "about_page": {
+    "hero_alt": "صورة صفحة من نحن",
+    "title": "من نحن",
+    "intro_heading": "تيكيفن",
+    "intro_body_part1": "تم إنشاء تيكيفن برؤية بسيطة: مساعدة الناس على إنشاء فعاليات تُلهِم وتربط وتُدخل البهجة. منصّتنا تجمع بين التصميم الأنيق وأدوات الفعاليات القوية، مما يجعل إطلاق التجارب المميّزة أسهل من أي وقت مضى.",
+    "intro_body_part2": "اليوم، يثق آلاف المستخدمين في تيكيفن لإدارة فعالياتهم بسهولة مع توفير تجربة سلسة وممتعة للحضور.",
+    "brand_image_alt": "صورة عن العلامة التجارية",
+    "history_image_alt": "صورة عن قصتنا",
+    "history_heading": "قصتنا",
+    "history_body": "تأسست تيكيفن في عام 2024 كأداة بسيطة تهدف إلى تسهيل تسجيل الحضور في الفعاليات. مع مرور الوقت، تطورت إلى منظومة متكاملة تغطي التذاكر والتحليلات والمالية وتفاعل الحضور.",
+    "promise_heading": "وعدنا",
+    "promise_body": "نَعِدكم بالاستمرار في بناء أدوات تُبسِّط سير عملكم، وتزيد من انتشاركم، وترتقي بفعالياتكم.",
+    "promise_image_alt": "صورة عن وعدنا",
+    "cta_heading": "هل أنت مستعد لإنشاء فعاليتك القادمة؟",
+    "cta_subheading": "انضم إلى آلاف المنظّمين الذين يستخدمون تيكيفن لإدارة فعاليات مدهشة.",
+    "cta_button": "ابدأ الآن"
+  },
+  "checkout_component": {
+    "order_summary_title": "ملخص الطلب",
+    "event_image_alt": "الفعالية",
+    "subtotal_label": "الإجمالي الفرعي",
+    "total_label": "الإجمالي",
+    "email_notice_title": "سيتم إرسال التذاكر إلى بريدك الإلكتروني",
+    "email_notice_prefix": "بعد إتمام الدفع بنجاح، سيتم إرسال تذاكرك وأكواد QR",
+    "email_notice_to_label": "إلى",
+    "email_notice_to_generic": "إلى بريدك الإلكتروني.",
+    "billing_payment_title": "الفوترة والدفع",
+    "fields": {
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "john@example.com"
+      },
+      "card_holder": {
+        "label": "اسم صاحب البطاقة",
+        "placeholder": "John Doe"
+      },
+      "card_number": {
+        "label": "رقم البطاقة",
+        "required": "رقم البطاقة مطلوب.",
+        "card_type_label": "نوع البطاقة:"
+      },
+      "expiry": {
+        "label": "تاريخ الانتهاء",
+        "required": "تاريخ الانتهاء مطلوب."
+      },
+      "cvc": {
+        "label": "رمز الأمان (CVC)",
+        "required": "رمز الأمان مطلوب."
+      },
+      "postal_code": {
+        "label": "الرمز البريدي",
+        "placeholder": "12345"
+      }
+    },
+    "button_processing": "جارٍ المعالجة...",
+    "button_confirm_purchase": "تأكيد الشراء",
+    "incomplete_card_title": "بيانات البطاقة غير مكتملة",
+    "incomplete_card_text": "يرجى استكمال رقم البطاقة وتاريخ الانتهاء ورمز الأمان.",
+    "payment_failed_title": "فشل الدفع",
+    "payment_success_title": "تم الدفع بنجاح",
+    "generic_error_title": "حدث خطأ ما",
+    "validation": {
+      "email_invalid": "بريد إلكتروني غير صالح",
+      "card_holder_required": "اسم صاحب البطاقة مطلوب",
+      "postal_code_required": "الرمز البريدي مطلوب"
+    }
+  },
+  "organizer_calendar": {
+    "title": "تقويم الفعاليات",
+    "subtitle": "اعرض وأدِر فعالياتك في عرض التقويم",
+    "add_event": "إضافة فعالية",
+    "today": "اليوم",
+    "categories": "الفئات",
+    "select_a_date": "اختر تاريخًا",
+    "no_events_scheduled": "لا توجد فعاليات مجدولة",
+    "this_day_available": "هذا اليوم متاح",
+    "pick_a_date": "اختر تاريخًا",
+    "click_day_to_see": "اضغط على أي يوم لعرض الفعاليات",
+    "event": "فعالية",
+    "events": "فعاليات",
+    "event_fallback": "فعالية",
+    "days": ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"],
+    "months": [
+      "يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو",
+      "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"
+    ],
+    "modal": {
+      "title": "تفاصيل الفعالية",
+      "read_only": "عرض للقراءة فقط",
+      "start": "البداية",
+      "end": "النهاية",
+      "price": "السعر"
+    },
+    "actions": {
+      "close": "إغلاق"
+    },
+    "stats": {
+      "total_events": "إجمالي الفعاليات",
+      "this_month": "هذا الشهر",
+      "upcoming_this_month": "القادمة هذا الشهر"
+    }
+  },
+  "event_order_page": {
+    "toast_order_created": "تم إنشاء الطلب بنجاح",
+    "banner_alt": "صورة بانر الفعالية",
+    "date_time_label": "التاريخ والوقت",
+    "venue_label": "المكان",
+    "select_tickets_title": "اختر تذاكرك",
+    "general_admission_label": "دخول عام",
+    "quantity_label": "الكمية",
+    "total_label": "الإجمالي:",
+    "processing": "جارٍ المعالجة...",
+    "proceed_to_checkout": "المتابعة إلى الدفع"
+  },
+  "orders_page": {
+    "upcoming": "القادمة",
+    "completed": "المكتملة",
+    "empty_title": "لا توجد طلبات بعد",
+    "empty_description": "عند شراء التذاكر، ستظهر هنا سجلات طلباتك وأكواد QR.",
+    "untitled_event": "فعالية بدون عنوان",
+    "status_upcoming": "قريباً",
+    "status_completed": "مكتمل",
+    "ordered_on_label": "تم الطلب في",
+    "event_date_label": "تاريخ الفعالية",
+    "no_date": "لا يوجد تاريخ محدد",
+    "total_label": "الإجمالي",
+    "ticket_singular": "تذكرة",
+    "ticket_plural": "تذاكر",
+    "ticket_label": "تذكرة رقم {{index}}",
+    "event_fallback": "فعالية",
+    "attendee_label": "الحضور",
+    "qr_alt": "رمز الاستجابة السريعة لـ {{id}}"
+  },
+  "organizer_analytics": {
+    "title": "تحليلات المنظّم",
+    "subtitle": "مرحبًا بعودتك! إليك نظرة عامة على فعالياتك.",
+    "attendance_rate": "معدل الحضور",
+    "attendance_by_category": "الحضور حسب الفئة",
+    "no_attendance_data": "لا توجد بيانات حضور متاحة بعد",
+    "of_tickets_checked_in": "تذكرة تم تسجيل حضورها",
+    "check_ins": "تسجيلات الدخول",
+    "total_tickets_sold": "إجمالي التذاكر المباعة",
+    "total_events": "إجمالي الفعاليات",
+    "top_selling_events": "أعلى الفعاليات مبيعًا",
+    "tickets_sold_label": "التذاكر المباعة:",
+    "no_sales_yet": "لا توجد مبيعات بعد.",
+    "revenue_by_category": "الإيرادات حسب الفئة",
+    "available_categories": "الفئات المتاحة:",
+    "no_data_available": "لا توجد بيانات متاحة."
+  },
+  "organizer_attendance": {
+    "title": "الحضور",
+    "subtitle": "إدارة سلسة لعملية تسجيل حضور المشاركين",
+    "select_event": "اختر الفعالية",
+    "all_events": "جميع الفعاليات",
+    "filter_all": "الكل",
+    "filter_pending": "قيد الانتظار",
+    "filter_checked_in": "تم تسجيل الحضور",
+    "search_placeholder": "ابحث برقم التذكرة...",
+    "search_button": "بحث",
+    "attendee_fallback": "مشارك",
+    "status_checked_in": "تم تسجيل الحضور",
+    "status_pending": "قيد الانتظار",
+    "qr_alt": "رمز الاستجابة السريعة للتذكرة",
+    "qr_title": "امسح للتحقق من التذكرة",
+    "toast_checked_in_success": "تم تسجيل الحضور بنجاح",
+    "action_checked_in": "تم تسجيل الحضور",
+    "action_checking": "جاري التسجيل...",
+    "action_check_in": "تسجيل الحضور",
+    "no_tickets_search": "لا توجد تذاكر مطابقة لبحثك",
+    "no_tickets_event": "لا توجد تذاكر لهذه الفعالية",
+    "no_tickets_search_hint": "جرّب تعديل رقم التذكرة في البحث.",
+    "no_tickets_event_hint": "ستظهر التذاكر هنا بمجرد إصدارها لهذه الفعالية.",
+    "live_event_stats": "إحصائيات الفعالية المباشرة",
+    "stats_checked_in": "تم تسجيل الحضور",
+    "stats_remaining": "متبقٍ",
+    "total_check_ins": "إجمالي عمليات التسجيل",
+    "activity_title": "سجل النشاط اللحظي",
+    "activity_aria_label": "سجل النشاط اللحظي",
+    "activity_ticket_label": "التذكرة",
+    "activity_checked_in": "تم تسجيل الحضور",
+    "activity_issued": "صادرة"
+  },
+  "organizer_settings": {
+    "title": "إعدادات المنظِّم",
+    "subtitle": "إدارة الملف الشخصي والإشعارات وإعدادات الحساب.",
+    "sections": {
+      "profile": "إعدادات الملف الشخصي",
+      "event_defaults": "إعدادات الفعاليات الافتراضية",
+      "notifications": "تفضيلات الإشعارات",
+      "payment": "إعدادات الدفع",
+      "social": "روابط التواصل الاجتماعي",
+      "account": "إدارة الحساب"
+    },
+    "profile_image": {
+      "label": "صورة الملف الشخصي",
+      "upload": "رفع صورة جديدة",
+      "remove": "إزالة الصورة"
+    },
+    "fields": {
+      "full_name": {
+        "label": "الاسم الكامل",
+        "placeholder": "مثال: أحمد محمد"
+      },
+      "organizer_name": {
+        "label": "اسم المنظِّم",
+        "placeholder": "مثال: فعاليات الشركة العربية"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "مثال: ahmed@example.com"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة مرور جديدة"
+      },
+      "description": {
+        "label": "وصف المنظِّم",
+        "placeholder": "اكتب نبذة مختصرة أو وصفًا لمنظمتك..."
+      },
+      "default_ticket_quantity": {
+        "label": "العدد الافتراضي للتذاكر",
+        "placeholder": "مثال: 100"
+      },
+      "default_ticket_price": {
+        "label": "السعر الافتراضي للتذكرة (ر.س/ج.م/د.إ)",
+        "placeholder": "مثال: 25.00"
+      },
+      "default_visibility": {
+        "label": "الظهور الافتراضي للفعالية",
+        "options": {
+          "public": "عام (مرئي للجميع)",
+          "private": "خاص (مرئي عبر الرابط المباشر فقط)",
+          "unlisted": "غير مدرج (لا يظهر في نتائج البحث)"
+        }
+      },
+      "stripe_account_id": {
+        "label": "معرّف حساب Stripe",
+        "placeholder": "مثال: acct_****************"
+      },
+      "facebook": {
+        "label": "رابط فيسبوك",
+        "placeholder": "https://facebook.com/yourprofile"
+      },
+      "instagram": {
+        "label": "رابط إنستجرام",
+        "placeholder": "https://instagram.com/yourprofile"
+      },
+      "twitter": {
+        "label": "رابط تويتر",
+        "placeholder": "https://twitter.com/yourprofile"
+      },
+      "website": {
+        "label": "رابط الموقع الإلكتروني",
+        "placeholder": "https://yourwebsite.com"
+      }
+    },
+    "event_defaults": {
+      "description": "قم بتعيين القيم الافتراضية للفعاليات الجديدة لتسريع عملية إنشاء الفعالية."
+    },
+    "notifications": {
+      "email": "إشعارات البريد الإلكتروني",
+      "in_app": "التنبيهات داخل التطبيق"
+    },
+    "payment": {
+      "description": "قم بضبط كيفية استلام الإيرادات من فعالياتك. اربط حسابك البنكي أو مزود الدفع."
+    },
+    "social": {},
+    "account": {
+      "delete_title": "حذف الحساب",
+      "delete_description": "سيتم حذف حسابك وجميع البيانات المرتبطة به نهائيًا. هذا الإجراء لا يمكن التراجع عنه.",
+      "delete_button": "حذف حسابي"
+    },
+    "actions": {
+      "saving": "جارٍ الحفظ...",
+      "save_changes": "حفظ التغييرات"
+    }
+  },
+  "organizer_events": {
+    "loading": "جارٍ تحميل الفعاليات...",
+    "loading_event_data": "جارٍ تحميل بيانات الفعالية...",
+    "title": "كل الفعاليات",
+    "subtitle": "قم بإدارة جميع فعالياتك من هذا المركز.",
+    "add_new": "إضافة فعالية جديدة",
+    "search_placeholder": "ابحث عن الفعاليات...",
+    "table_headers": {
+      "title": "عنوان الفعالية",
+      "start_date": "تاريخ البداية",
+      "end_date": "تاريخ الانتهاء",
+      "venue": "المكان",
+      "category": "الفئة",
+      "price": "السعر",
+      "actions": "الإجراءات"
+    },
+    "pagination_summary": "عرض {{start}} إلى {{end}} من {{total}} نتيجة",
+    "actions": {
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "close": "إغلاق"
+    },
+    "modal": {
+      "title": "تفاصيل الفعالية",
+      "subtitle": "معلومات كاملة عن الفعالية",
+      "start_label": "تاريخ ووقت البداية",
+      "end_label": "تاريخ ووقت الانتهاء",
+      "venue_label": "المكان",
+      "price_label": "السعر",
+      "free_event": "فعالية مجانية"
+    },
+    "delete_confirm": {
+      "title": "هل أنت متأكد؟",
+      "text": "سيتم حذف هذه الفعالية نهائيًا.",
+      "confirm": "حذف",
+      "cancel": "إلغاء"
+    },
+    "delete_toast": {
+      "deleted_title": "تم الحذف!",
+      "deleted_text": "تم حذف الفعالية بنجاح.",
+      "error_title": "خطأ!",
+      "error_text": "فشل حذف الفعالية. يرجى المحاولة مرة أخرى."
+    },
+    "breadcrumb_create": "إنشاء فعالية",
+    "breadcrumb_edit": "تعديل فعالية",
+    "create_title": "إنشاء فعالية جديدة",
+    "create_subtitle": "املأ التفاصيل أدناه لإضافة فعالية جديدة إلى المنصة.",
+    "edit_title": "تعديل الفعالية",
+    "edit_subtitle": "قم بتحديث تفاصيل فعاليتك.",
+    "form": {
+      "section_info": "معلومات الفعالية",
+      "title_label": "عنوان الفعالية",
+      "title_placeholder": "مثال: مهرجان موسيقي صيفي",
+      "ai_button_title": "استخدم الذكاء الاصطناعي لاقتراح تفاصيل الفعالية",
+      "ai_ask": "اسأل الذكاء الاصطناعي",
+      "ai_thinking": "يفكر",
+      "description_label": "وصف تفصيلي",
+      "description_placeholder": "صف فعاليتك...",
+      "start_label": "تاريخ ووقت البداية",
+      "start_placeholder": "اختر تاريخ ووقت البداية",
+      "end_label": "تاريخ ووقت الانتهاء",
+      "end_placeholder": "اختر تاريخ ووقت الانتهاء",
+      "venue_label": "المكان",
+      "venue_placeholder": "اختر مكانًا...",
+      "category_label": "الفئة",
+      "category_placeholder": "اختر فئة...",
+      "price_label": "سعر التذكرة ($)",
+      "price_placeholder": "مثال: 45.00",
+      "tickets_label": "عدد التذاكر",
+      "tickets_placeholder": "مثال: 100",
+      "free_label": "فعالية مجانية",
+      "photos_title": "صور الفعالية",
+      "current_photos": "الصور الحالية",
+      "filepond_label": "اسحب وأفلت صور الفعالية أو <span class=\"filepond--label-action\">تصفح</span>",
+      "button_saving": "جارٍ الحفظ...",
+      "button_updating": "جارٍ التحديث...",
+      "button_create": "إنشاء فعالية",
+      "button_update": "تحديث الفعالية",
+      "button_cancel": "إلغاء",
+      "validation": {
+        "title_required": "العنوان مطلوب",
+        "title_max": "الحد الأقصى {{max}} حرفًا",
+        "description_required": "الوصف مطلوب",
+        "description_max": "الحد الأقصى {{max}} حرفًا",
+        "venue_required": "المكان مطلوب",
+        "category_required": "الفئة مطلوبة",
+        "start_required": "تاريخ البدء مطلوب",
+        "end_required": "تاريخ الانتهاء مطلوب",
+        "end_after_start": "يجب أن يكون تاريخ الانتهاء بعد أو في نفس تاريخ البدء",
+        "price_min": "يجب أن يكون السعر أكبر من أو يساوي 0",
+        "tickets_min": "يجب ألا يقل عدد التذاكر عن 1"
+      }
+    },
+    "ai": {
+      "error_title": "خطأ",
+      "enter_title_first": "يرجى إدخال عنوان الفعالية أولاً.",
+      "success_title": "تم تطبيق اقتراحات الذكاء الاصطناعي!"
+    },
+    "submit": {
+      "success_title": "تم بنجاح!",
+      "update_success": "تم تحديث الفعالية بنجاح.",
+      "create_success": "تم إنشاء الفعالية بنجاح.",
+      "error_title": "خطأ!",
+      "update_error_generic": "فشل تحديث الفعالية. يرجى المحاولة مرة أخرى.",
+      "create_error_generic": "فشل إنشاء الفعالية. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "nav": {
+  "about": "من نحن",
+  "events": "الفعاليات",
+  "venues": "الأماكن",
+  "attending": "الحضور",
+  "organizer": "المنظّم",
+  "tickets": "التذاكر",
+  "login": "تسجيل الدخول",
+  "logout": "تسجيل الخروج",
+  "signedInAs": "مسجّل الدخول باسم",
+  "viewProfile": "عرض الملف الشخصي",
+  "notifications": "الإشعارات",
+  "noNotifications": "لا توجد إشعارات",
+  "upcomingEvents": "الفعاليات القادمة"
+},
+"events_find_experience": "ابحث عن تجربتك القادمة",
+"events_discover_interests": "اكتشف فعاليات تناسب جميع اهتماماتك.",
+"events_search_placeholder": "ابحث عن فعاليات أو فنانين أو أماكن...",
+"events_date": "التاريخ",
+"events_all": "الكل",
+"events_online": "عبر الإنترنت",
+"events_offline": "حضوري",
+"events_free": "مجاني",
+"events_paid": "مدفوع",
+"events_no_results": "لا توجد نتائج مطابقة",
+"events_adjust_filters": "جرّب تعديل عوامل التصفية أو كلمات البحث.",
+"events_from": "من",
+"events_get_tickets": "احجز تذكرتك",
+"common_previous": "السابق",
+"common_next": "التالي",
+"event_not_found": "الفعالية غير موجودة",
+"events_back_to_events": "العودة إلى الفعاليات",
+"event_about_title": "عن الفعالية",
+"event_venue_info_title": "معلومات المكان",
+"event_description_label": "الوصف:",
+"event_capacity_label": "السعة",
+"event_capacity_unavailable": "معلومات السعة غير متاحة",
+"event_date_time_title": "التاريخ والوقت",
+"event_start_label": "البدء:",
+"event_end_label": "الانتهاء:",
+"event_venue_label": "المكان",
+"event_organizer_title": "المنظّم",
+"event_posted_on": "نُشر في:",
+"event_get_your_tickets": "احصل على تذاكرك",
+"event_starting_from": "تبدأ من",
+"event_available_badge": "متاح",
+"event_buy_tickets": "شراء التذاكر",
+"event_default_venue_description": "هو مكان حديث مصمم لاستضافة فعاليات وتجارب لا تُنسى.",
+  "blocked": {
+    "title": "الحساب محظور",
+    "create_event": "لا يمكنك إنشاء فعالية لأن حسابك محظور حالياً.",
+    "create_venue": "لا يمكنك إنشاء قاعة لأن حسابك محظور حالياً.",
+    "listing_events": "حسابك محظور، لذلك إنشاء فعاليات جديدة غير متاح.",
+    "listing_venues": "حسابك محظور، لذلك إنشاء قاعات جديدة غير متاح."
+  },
+  
+  "footer": {
+    "description": "اكتشف واحجز تذاكر أفضل الفعاليات من حولك. استمتع بتجارب لا تُنسى بسهولة وأناقة.",
+    
+    "explore": {
+      "title": "استكشف",
+      "categories": "التصنيفات",
+      "featured": "الفعاليات المميزة",
+      "venues": "القاعات",
+      "organizers": "المنظمون"
+    },
+
+    "company": {
+      "title": "الشركة",
+      "about": "من نحن",
+      "careers": "الوظائف",
+      "privacy": "سياسة الخصوصية",
+      "terms": "شروط الخدمة"
+    },
+
+    "contact": {
+      "title": "تواصل معنا",
+      "address": "123 شارع الفعاليات، مدينة المرح، 45678",
+      "email": "hello@tickeven.com",
+      "phone": "+1 (234) 567-890"
+    },
+
+    "rights": " جميع الحقوق محفوظة. صُنع بحب لعشاق الفعاليات."
+  },
+  "admin_events": {
+    "title": "إدارة الفعاليات",
+    "subtitle": "عرض وإدارة جميع الفعاليات",
+    "search_placeholder": "ابحث عن الفعاليات...",
+    "table_headers": {
+      "event": "الفعالية",
+      "organizer": "المنظم",
+      "date": "التاريخ",
+      "tickets": "التذاكر",
+      "status": "الحالة",
+      "reports": "التقارير",
+      "actions": "الإجراءات",
+      "last_reported": "آخر بلاغ",
+      "activity": "النشاط"
+    },
+    "status": {
+      "upcoming": "قريباً",
+      "active": "نشط",
+      "completed": "منتهي",
+      "banned": "محظور",
+      "published": "منشور",
+      "under_review": "قيد المراجعة"
+    },
+    "view_reports": "عرض التقارير",
+    "no_events": "لا توجد فعاليات",
+    "loading": "جاري تحميل الفعاليات...",
+    "error": "حدث خطأ أثناء تحميل الفعاليات",
+    "view_details": "عرض التفاصيل",
+    "tickets_sold": "تم بيع {{sold}}",
+    "checked_in": "{{checkedIn}} تم تسجيل الحضور",
+    "reports_count": "{{count}} بلاغ",
+    "reports_modal": {
+      "title": "تقارير المستخدمين لـ \"{{eventTitle}}\"",
+      "no_reports": "لا توجد تقارير مرفوعة لهذه الفعالية بعد.",
+      "reporter_anonymous": "مستخدم مجهول",
+      "time_not_available": "الوقت غير متوفر"
+    },
+    "event_details": {
+      "title": "تفاصيل الفعالية",
+      "organizer": "المنظم",
+      "date_time": "التاريخ والوقت",
+      "location": "الموقع",
+      "category": "الفئة",
+      "status": "الحالة",
+      "tickets": {
+        "title": "التذاكر",
+        "sold": "تم البيع",
+        "checked_in": "تم تسجيل الحضور",
+        "capacity": "السعة"
+      },
+      "reports": {
+        "title": "التقارير",
+        "no_reports": "لا توجد تقارير لهذه الفعالية",
+        "reported_by": "تم الإبلاغ بواسطة",
+        "on_date": "بتاريخ",
+        "reason": "السبب",
+        "message": "الرسالة",
+        "type": "النوع"
+      },
+      "actions": {
+        "ban_event": "حظر الفعالية",
+        "publish_event": "نشر الفعالية",
+        "mark_reviewed": "وضع علامة كمُراجَع",
+        "back_to_events": "العودة إلى الفعاليات"
+      },
+      "confirmation": {
+        "title": "هل أنت متأكد؟",
+        "ban_message": "سيؤدي هذا إلى حظر الفعالية وإخفائها عن المستخدمين.",
+        "publish_message": "سيؤدي هذا إلى نشر الفعالية وجعلها مرئية للمستخدمين.",
+        "confirm": "نعم، متابعة",
+        "cancel": "إلغاء"
+      },
+      "success": {
+        "status_updated": "تم تحديث حالة الفعالية بنجاح"
+      },
+      "error": {
+        "update_failed": "فشل تحديث حالة الفعالية"
+      }
+    }
+  }
+}
+
