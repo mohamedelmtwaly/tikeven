@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎫 Tikeven – Event Ticket Booking Platform
 
-## Getting Started
+Tikeven is a modern event ticket booking platform built with **Next.js 16**, allowing users to browse events, view details, filter by category or date, book tickets, and receive a unique **QR / Barcode**.  
+Organizers and admins have full control over event creation, venues, capacity, bookings, and analytics.
 
-First, run the development server:
+---
+
+## 📽️ Application Demo
+
+> Make sure to upload your GIFs inside:  
+> `public/gifs/`
+
+### 🔹 Overview
+![Overview](./public/gifs/overview.gif)
+
+### 🔹 Create Account
+![Create Account](./public/gifs/createaccount.gif)
+
+### 🔹 Book Ticket
+![Book Ticket](./public/gifs/bookticket.gif)
+
+### 🔹 Organizer Creates Event
+![Organizer Creates Event](./public/gifs/organizerevent.gif)
+
+### 🔹 Admin Dashboard
+![Admin Dashboard](./public/gifs/adminpage.gif)
+
+---
+
+## 🚀 Features
+
+### 🧑‍🤝‍🧑 User Features
+- Browse all events  
+- Filter events by **category**, **date**, or **keyword search**  
+- Multi-language support (via **i18next**)  
+- View full event details (venue, price, organizer info)  
+- Book tickets  
+- Make secure payments using **Stripe**  
+- Receive a unique **QR/Barcode** via email (via **Nodemailer**)  
+- Access past and current bookings  
+- Show barcode for event check-in  
+
+---
+
+### 👨‍💼 Organizer Dashboard
+- Create, edit, and delete events  
+- Choose venue & location (with **Leaflet Maps**)  
+- Set ticket capacity and types  
+- Upload images using **FilePond**  
+- Manage event bookings  
+- View analytics (Chart.js)  
+
+---
+
+### 🛡️ Admin Features
+- Full access to all events  
+- Manage users & organizers  
+- Sales analytics dashboard  
+- View & validate ticket QR codes  
+
+---
+
+### 🎫 Ticket & Barcode System
+- Generates **unique QR codes** using the `qrcode` library  
+- Sends the QR code via email using **Nodemailer**  
+- Organizer scans QR at check-in  
+- Secure booking verification  
+
+---
+
+## 🛠️ Tech Stack
+
+### **Core**
+- Next.js 16  
+- React 19  
+- TypeScript  
+- Tailwind CSS 4  
+
+### **State Management**
+- Redux Toolkit  
+- React Redux  
+
+### **Payments**
+- Stripe / Stripe Elements  
+
+### **Authentication / Backend**
+- Firebase  
+- BcryptJS (password hashing if backend exists)
+
+### **Forms**
+- React Hook Form + Zod Validation  
+
+### **Email**
+- Nodemailer  
+
+### **Maps**
+- Leaflet + GeoSearch  
+
+### **Uploads**
+- FilePond + Image Preview  
+
+### **Charts**
+- Chart.js  
+- React-Chartjs-2  
+
+### **Internationalization**
+- i18next  
+- react-i18next  
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run dev
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+yarn install
